@@ -51,6 +51,11 @@ th {
   width: 250px;
 }
 
+.tooltip .adjust2 {
+  top: -25px;
+  width: 200px;
+}
+
 .tooltip:hover .tooltiptext {
   visibility: visible;
 }
@@ -78,4 +83,26 @@ th {
 
 .centertext {
   text-align: center;
+}
+
+footer {
+  position: relative;
+}
+
+.imageleft {
+  width: 25%;
+  height: 25%;
+  float: left;
+}
+
+.imageright {
+  width: 25%;
+  height: 25%;
+  float: right;
+  top: 180px;
+}
+
+.footerlinks {
+  height: 83.33px;
+  line-height: 83.33px;
 }
