@@ -1,5 +1,13 @@
-h1 {
+.title {
   color: #b59e7e;
+  font-weight: bold;
+  font-size: 2em;
+  margin: 0px;
+  position: relative;
+  width: 180px;
+
+  top: -30px;
+  left: 100px;
 }
 
 h6 {
@@ -89,6 +97,10 @@ footer {
   position: relative;
 }
 
+.imagetop {
+  float: left;
+}
+
 .imageleft {
   width: 23%;
   height: 23%;
@@ -104,4 +116,9 @@ footer {
 .footerlinks {
   height: 83.33px;
   line-height: 83.33px;
+}
+
+.upshift {
+  position: relative;
+  top: -40px;
 }
