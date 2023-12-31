@@ -46,6 +46,11 @@ th {
   z-index: 1;
 }
 
+.tooltip .adjust {
+  top: -105px;
+  width: 250px;
+}
+
 .tooltip:hover .tooltiptext {
   visibility: visible;
 }
