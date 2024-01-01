@@ -58,6 +58,22 @@ th {
   z-index: 1;
 }
 
+.tooltip .tooltipspell {
+  visibility: hidden;
+  width: 375px;
+  background-color: black;
+  color: #fff;
+  text-align: left;
+  padding: 5px 0;
+  border-radius: 6px;
+
+  top: 0;
+  right: 0;
+
+  position: fixed;
+  z-index: 1;
+}
+
 .tooltip .adjust {
   top: -105px;
   width: 250px;
@@ -69,6 +85,10 @@ th {
 }
 
 .tooltip:hover .tooltiptext {
+  visibility: visible;
+}
+
+.tooltip:hover .tooltipspell {
   visibility: visible;
 }
 
@@ -124,5 +144,5 @@ footer {
 
 .upshift {
   position: relative;
-  top: -40px;
+  top: -20px;
 }
