@@ -36,6 +36,13 @@ th {
   padding: 5px;
 }
 
+.spell > td,
+th {
+  border: 0;
+  text-align: left;
+  padding: 0;
+}
+
 .tooltip {
   position: relative;
   display: inline-block;

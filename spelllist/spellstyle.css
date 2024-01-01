@@ -1,0 +1,27 @@
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td,
+th {
+  text-align: left;
+  padding: 2px;
+}
+
+.imageleft {
+  width: 23%;
+  height: 23%;
+  float: left;
+}
+
+.imageright {
+  width: 23%;
+  height: 23%;
+  float: right;
+}
+
+.footerlinks {
+  height: 83.33px;
+  line-height: 83.33px;
+}
