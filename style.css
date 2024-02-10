@@ -91,6 +91,12 @@ th {
   width: 200px;
 }
 
+.tooltip .adjust3 {
+  top: 25px;
+  left: -100px;
+  width: 200px;
+}
+
 .tooltip:hover .tooltiptext {
   visibility: visible;
 }
