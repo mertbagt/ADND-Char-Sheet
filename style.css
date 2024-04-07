@@ -138,21 +138,33 @@ footer {
   float: left;
 }
 
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+}
+
 .imageleft {
-  width: 23%;
-  height: 23%;
-  float: left;
+  width: 75px;
+  height: 75px;
 }
 
 .imageright {
-  width: 23%;
-  height: 23%;
-  float: right;
+  width: 75px;
+  height: 75px;
 }
 
 .footerlinks {
-  height: 83.33px;
-  line-height: 83.33px;
+  display: flex;
+  flex-direction: column;
+
+  /* height: 83.33px; */
+  /* line-height: 15px; */
+  margin-bottom: 0px;
+  margin-top: 0px;
+}
+
+.linkrow {
+  margin-bottom: 15px;
 }
 
 .upshift {
