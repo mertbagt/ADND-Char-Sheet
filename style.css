@@ -164,7 +164,12 @@ footer {
 }
 
 .linkrow {
-  margin-bottom: 15px;
+  margin-bottom: 12px;
+  margin-top: 15px;
+}
+
+.linkrow2 {
+  margin-bottom: 13px;
 }
 
 .upshift {
