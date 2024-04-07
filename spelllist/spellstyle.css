@@ -14,14 +14,14 @@ th {
 }
 
 .imageleft {
-  width: 23%;
-  height: 23%;
+  width: 75px;
+  height: 75px;
   float: left;
 }
 
 .imageright {
-  width: 23%;
-  height: 23%;
+  width: 75px;
+  height: 75px;
   float: right;
 }
 
