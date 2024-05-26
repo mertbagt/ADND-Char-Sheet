@@ -11,50 +11,180 @@
   <body>
     <main>
       <h4 style="margin-bottom: 5px">Contacts</h4>
-      <table style="font-size: 12px">
-        <!-- <tr class="contact"> -->
-        <tr>
-          <td style="width: 30%">
-            <strong>Haunted Lands:</strong>
-          </td>
-          <td>Hakam, Eldest Uncle</td>
-          <td>Hometown Village</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>Kamal, Younger Uncle</td>
-          <td>Hometown Village</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>Vivirmas, Elder Brother</td>
-          <td>Hometown Village</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td style="border-bottom: 1px solid">Essafah, Younger Brother</td>
-          <td style="border-bottom: 1px solid">Hometown Village</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td style="border-bottom: 1px solid">Nora, Herbalist</td>
-          <td style="border-bottom: 1px solid">Neighboring Village</td>
-        </tr>
-        <tr>
-          <td><strong>Southern Suq Bay</strong></td>
-          <td>Walleta, Tax Collector</td>
-          <td>Huzuz</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>Rakim the Clever, Apothecary</td>
-          <td>Huzuz</td>
-        </tr>
-      </table>
-      <p style="font-size: 12px">
-        Expedition: Naman ibn Fareed (geologist apprentice), 6 porters, 1 2nd
-        lvl fighter, 6 1st lvl fighters
-      </p>
+
+      <button class="accordion"><strong>Expedition</strong></button>
+      <div class="panel">
+        <button class="accordion">&emsp;Porters</button>
+        <div class="panel">
+          <table style="font-size: 12px">
+            <tbody>
+              <tr style="width: 100%">
+                <td style="width: 125px">Abdul</td>
+                <td>laborer, lvl 0</td>
+              </tr>
+              <tr>
+                <td>Bilel</td>
+                <td>laborer, lvl 0</td>
+              </tr>
+              <tr>
+                <td>Farzog</td>
+                <td>laborer, lvl 0</td>
+              </tr>
+              <tr>
+                <td>Fazh</td>
+                <td>laborer, lvl 0</td>
+              </tr>
+              <tr>
+                <td>Kazum</td>
+                <td>laborer, lvl 0</td>
+              </tr>
+              <tr>
+                <td>Khahl</td>
+                <td>laborer, lvl 0</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <button class="accordion">&emsp;Specialists</button>
+        <div class="panel">
+          <table style="font-size: 12px">
+            <tbody>
+              <tr style="width: 100%">
+                <td style="width: 125px">Naaman ibn Farid</td>
+                <td>Engineer, lvl 2</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <button class="accordion">&emsp;Warriors</button>
+        <div class="panel">
+          <table style="font-size: 12px">
+            <tbody>
+              <tr style="width: 100%">
+                <td style="width: 125px">Bakir ibn Abdul</td>
+                <td>Fighter, lvl 2</td>
+              </tr>
+              <tr>
+                <td>Awwad</td>
+                <td>Fighter, lvl 1</td>
+              </tr>
+              <tr>
+                <td>Farhaf</td>
+                <td>Fighter, lvl 1</td>
+              </tr>
+              <tr>
+                <td>Gaffar</td>
+                <td>Fighter, lvl 1</td>
+              </tr>
+              <tr>
+                <td>Haldun</td>
+                <td>Fighter, lvl 1</td>
+              </tr>
+              <tr>
+                <td>Hamza</td>
+                <td>Fighter, lvl 1</td>
+              </tr>
+              <tr>
+                <td>Jasem</td>
+                <td>Fighter, lvl 1</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+
+      <button class="accordion"><strong>Haunted Lands</strong></button>
+      <div class="panel">
+        <button class="accordion">&emsp;Hometown Village</button>
+        <div class="panel">
+          <table style="font-size: 12px">
+            <tbody>
+              <tr style="width: 100%">
+                <td style="width: 125px">Hakam, Eldest Uncle</td>
+                <td>Head of the Tribe</td>
+              </tr>
+              <tr>
+                <td>Kamal, Younger Uncle</td>
+                <td>Shady Business Partner to Hakam</td>
+              </tr>
+              <tr>
+                <td>Vivirmas, Elder Brother</td>
+                <td>Al-Badian Warrior</td>
+              </tr>
+              <tr>
+                <td>Essafah, Younger Brother</td>
+                <td>Al-Badian Wizard</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <button class="accordion">&emsp;Neighboring Village</button>
+        <div class="panel">
+          <table style="font-size: 12px">
+            <tbody>
+              <tr style="width: 100%">
+                <td style="width: 125px">Nora</td>
+                <td>Tribal Herbalist</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+
+      <button class="accordion"><strong>Southern Suq Bay</strong></button>
+      <div class="panel">
+        <button class="accordion">&emsp;Huzuz</button>
+        <div class="panel">
+          <table style="font-size: 12px">
+            <tbody>
+              <tr>
+                <td>Faizal ibn Raskab</td>
+                <td>Heir to ghost we laid to rest</td>
+              </tr>
+              <tr>
+                <td>Rakim the Clever</td>
+                <td>Apothecary</td>
+              </tr>
+              <tr style="width: 100%">
+                <td style="width: 125px">Walleta</td>
+                <td>Tax Collector</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+
+      <button class="accordion"><strong>X Miscellanea</strong></button>
+      <div class="panel">
+        <button class="accordion">&emsp;Deceased Associates</button>
+        <div class="panel">
+          <table style="font-size: 12px">
+            <tbody>
+              <tr style="width: 100%">
+                <td style="width: 125px">Rahim</td>
+                <td>Fighter employed by Hussan and Mamoon</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <button class="accordion">
+          &emsp;Allied Expedition to the Tomb of Ramset XII
+        </button>
+        <div class="panel">
+          <table style="font-size: 12px">
+            <tbody>
+              <tr style="width: 100%">
+                <td style="width: 125px">Hussam bin Abbak</td>
+                <td>Sorcerer, lvl 3</td>
+              </tr>
+              <tr>
+                <td>Mamoon al Hatim</td>
+                <td>Askar, lvl 3</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
     </main>
     <footer>
       <iframe
@@ -65,5 +195,22 @@
         title="Footer"
       ></iframe>
     </footer>
+
+    <script>
+      let acc = document.getElementsByClassName("accordion");
+      let i;
+
+      for (i = 0; i < acc.length; i++) {
+        acc[i].addEventListener("click", function () {
+          this.classList.toggle("active");
+          let panel = this.nextElementSibling;
+          if (panel.style.display === "block") {
+            panel.style.display = "none";
+          } else {
+            panel.style.display = "block";
+          }
+        });
+      }
+    </script>
   </body>
 </html>
